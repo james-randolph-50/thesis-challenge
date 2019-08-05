@@ -1,0 +1,16 @@
+body {
+    background-image: url("background.jpg");
+}
+
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headline {
+    display: inline-block;
+}
+
+.headline > .img {
+    display: inline-block;
+}

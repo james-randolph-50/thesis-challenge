@@ -3,30 +3,40 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>James Randolph - Thesis Challenge</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         </head>
         <body>
             <div id="headline">
                 <header>
-                    <img src="" alt=""/>
+                    <img src="" alt="logo"/>
                     <div class="links">
-                        <p>About</p>
-                        <p>Integrations</p>
-                        <p>Pricing</p>
-                        <p>Contacts</p>
+                        <a href="#">About</a>
+                        <a href="#">Integrations</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Contacts</a>
                     </div>
-                    <img src="menu-icon" />
+                    <img src="" alt="menu-icon"/>
                 </header>
-                <div class="main">
-                        <h1>Simple Way to ORganize Your Inspirations</h1>
+
+                <div id="hero-section">
+                    <div class="main-copy">
+                        <h1>Simple Way to Organize Your Inspirations</h1>
                         <p>I think what motivates people is not greate hate, but great love for other people.</p>
                     </div>
-
-                      <h3 class="form-header">SIGN UP FOR FREE</h3>
-                      <form method="post" id="register">
-                      </form>
-                      <p>By clicking "Sign up" I agree to our <strong>Terms of Service</strong></p>
-
+                    <div class="form-section">
+                        <form method="post" id="register">
+                                <h3>SIGN UP FOR FREE</h3>
+                                <input type="text" name="name" id="name"
+                                placeholder="Name" required>
+                                <input type="email" name="email" id="email" placeholder="E-mail">
+                                <input type="password" name="password" id="pass" placeholder="Password" required>
+                                <input type="submit" value="Sign up">
+                            </form>
+                        <p>By clicking "Sign up" I agree to our <strong>Terms of Service</strong></p>
                     </div>
+                </div>
+
                 <div class="bottom">
                     <p id="copyright">2019 Stamp. All Rights Reserved</p>
                     <div id="bottom-links">
